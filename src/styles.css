@@ -1,0 +1,82 @@
+body {
+  background: black;
+}
+.weather {
+  background-color: white;
+  max-width: 700px;
+  margin: 65px auto;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 25px 45px rgba(96, 76, 143, 0.08);
+}
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-size: 37px;
+  margin: 0;
+}
+.current-details {
+  color: rgba(175, 172, 172, 0.582);
+  font-size: 15px;
+  font-weight: 400px;
+  font-family: "Poppins", serif;
+  line-height: 25px;
+}
+header {
+  border-bottom: 1px solid #f9f7fe;
+  padding-bottom: 30px;
+}
+.current-weather strong {
+  color: #e44776;
+}
+.current-weather {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Poppins", sans-serif;
+}
+.current-temperature {
+  font-size: 50px;
+}
+main {
+  padding: 30px 0;
+}
+.search-input {
+  background-color: #f9f7fe;
+  color: rgb(37, 37, 65);
+  font-size: 20px;
+  padding: 20px;
+  width: 70%;
+  border-radius: 5px;
+  border: none;
+}
+.search-button {
+  font-size: 20px;
+  background-color: #885df1;
+  margin-left: 5px;
+  color: white;
+  line-height: 1;
+  padding: 20px;
+  border: none;
+  border-radius: 5px;
+}
+.current-temperature-icon {
+  position: relative;
+  top: -8px;
+  font-size: 40px;
+  margin-right: 10px;
+}
+.current-temperature-value {
+  font-size: 80px;
+  font-weight: bold;
+}
+.current-temperature-unit {
+  font-size: 28px;
+  position: relative;
+  top: -39px;
+}
+footer {
+  border-top: 1px solid #f9f7fe;
+  text-align: center;
+  padding-top: 15px;
+  color: rgba(39, 33, 66, 0.4);
+}
